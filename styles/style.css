@@ -3,11 +3,20 @@
   src: url(../fonts/BonheurRoyale-Regular.ttf)
 }
 
+@font-face {
+  font-family: 'RoyalQueen';
+  src: url(../fonts/RoyalQueen.ttf)
+}
+
+:root {
+  --font1: 'RoyalQueen'
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  text-decoration: none
+  text-decoration: none;
+
 }
 
 body {
@@ -22,6 +31,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+  
 
 }
 
@@ -37,10 +47,34 @@ body {
 }
 
 .cabecalho-menu-item {
-  font-family: Royal, sans-serif;
+  font-family: 'RoyalQueen', sans-serif;
   color: black;
   font-weight: 400;
   font-size: 30px;
+}
+#cabecalho-menu-item-login {
+  background-color:#0047d5 ;
+  width: 140px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: -40px;
+
+}
+
+#cabecalho-menu-item-register {
+  background-color: #3071f2;
+  width: 140px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 400;
+  text-align: center;
+
 }
 
 
@@ -71,7 +105,7 @@ body {
 }
 
 #conteudo-principal-escrito-titulo {
-  font-family: Royal, cursive;
+  font-family: 'RoyalQueen', cursive;
   font-weight: 400;
   font-size: 64px;
 
@@ -91,7 +125,7 @@ body {
 
 #conteudo-principal-escrito-botao:hover {
   background-color: rgb(60, 115, 119);
-  cursor:pointer
+  cursor:pointer;
 }
 
 #conteudo-principal-imagem {
@@ -109,7 +143,7 @@ body {
 #conteudo-secundario-titulo {
   border-top: 0.4px solid black;
   padding-top: 10px;
-  font-family: Royal, sans-serif;
+  font-family: cursive, sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: black;
