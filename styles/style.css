@@ -46,14 +46,28 @@ body {
   gap: 50px;
 }
 
-.cabecalho-menu-item {
+.cabecalho-menu-logoname {
   font-family: 'RoyalQueen', sans-serif;
   color: black;
   font-weight: 400;
   font-size: 30px;
+  margin-left: -250px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'RoyalQueen', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+    text-align: center;
+  align-items: center;
+  align-self: center;
 }
 #cabecalho-menu-item-login {
-  background-color:#0047d5 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0047d5;
   width: 140px;
   height: 60px;
   border: none;
@@ -62,10 +76,13 @@ body {
   font-weight: 400;
   text-align: center;
   margin-right: -40px;
-
+  font-size:30px
 }
 
 #cabecalho-menu-item-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #3071f2;
   width: 140px;
   height: 60px;
@@ -74,7 +91,7 @@ body {
   border-radius: 20px;
   font-weight: 400;
   text-align: center;
-
+  font-size: 30px
 }
 
 
@@ -94,7 +111,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 120px;
 }
 
 #conteudo-principal-escrito {
@@ -126,6 +143,11 @@ body {
 #conteudo-principal-escrito-botao:hover {
   background-color: rgb(60, 115, 119);
   cursor:pointer;
+}
+
+#conteudo-principal-escrito-subtitulo {
+  font-weight: 100;
+  font-size: 20px;
 }
 
 #conteudo-principal-imagem {
